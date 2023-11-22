@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vancouver Island Musicfest</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -14,7 +15,7 @@
         </div>
         <nav>
             <img src="images/logo.png" alt="Vancouver Island Musicfest logo" width="100">
-            <ul>
+            <ul id="nav-items">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="https://www.islandmusicfest.com/performers">Performers</a></li>
                 <li><a href="https://www.islandmusicfest.com/camping/">Camping</a></li>
@@ -24,6 +25,7 @@
                 <li><a href="https://www.islandmusicfest.com/tickets/">Tickets</a></li>
                 <li><a href="https://www.islandmusicfest.com/musicfest-playlist/">Musicfest Playlist</a></li>
             </ul>
+            <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
         </nav>
     </header>
     <section class="hero">
@@ -49,6 +51,12 @@
     <section class="sponsors">
         <h2>Vancouver Island MusicFest thanks our kind funders and sponsors.</h2>
     </section>
+    <script>
+        function showNav() {
+          var element = document.getElementById("nav-items");
+          element.classList.toggle("show-items");
+        }
+      </script>  
     <footer>
         <img src="images/logo.png" alt="Vancouver Island Musicfest logo" width="100">
         <ul>

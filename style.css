@@ -10,6 +10,51 @@ html {
     padding: 5px;
     color: white;
     font-family: arial, sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/*Nav*/
+
+.nav {
+    background: #456990;
+    width: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+    flex-direction: column;
+    list-style-type: none;
+    display: none;
+    margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav .toggle {
+        display: none;
+    }
+}
+
+nav ul li a {
+    color: white;
     font-size: 1.6rem;
     text-transform: uppercase;
+    padding: 10px;
+}
+
+.show-items {
+    display: flex;
+}
+
+nav .toggle {
+    align-self: flex-end;
+    position: absolute;
+    cursor: pointer;
 }
