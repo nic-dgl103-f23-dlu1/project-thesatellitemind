@@ -1,0 +1,15 @@
+html {
+    font-size: 62.5%;
+}
+
+/*Call to Action*/
+
+.call-to-action {
+    background-color: #49beaa;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
