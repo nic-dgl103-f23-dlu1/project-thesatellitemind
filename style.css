@@ -62,14 +62,17 @@ nav .toggle {
     background: #456990;
 }
 
-.hero {
-    background-image: url(images/crowd.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
+.hero img {
+    opacity: 0.6;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
 }
 
 .hero h1 {
+    position: absolute;
     font-family: Calistoga, serif;
     font-weight: 400px;
     font-size: 4.8rem;
