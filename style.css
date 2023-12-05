@@ -62,26 +62,49 @@ nav .toggle {
     background: #456990;
 }
 
-.hero img {
-    opacity: 0.6;
+/*Hero*/
+
+.hero {
+    overflow: hidden;
     position: relative;
+}
+
+.hero img {
+    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: auto;
 }
 
-.hero h1 {
+.background-overlay {
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
     position: absolute;
+}
+
+.hero h1 {
+    position: relative;
     font-family: Calistoga, serif;
     font-weight: 400px;
     font-size: 4.8rem;
     text-align: center;
-    line-height: 200px;
     color: white;
-    bottom: 0;
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; /*Box Shadow came from CSS Scan*/
+    text-shadow: 3px 3px 3px black;
     padding: 20px;
+    top: 0;
+}
+
+.hero h2 {
+    position: relative;
+    font-family: Calistoga, serif;
+    font-weight: 400px;
+    font-size: 3.6rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    top: 1;
 }
 
 /*Links section*/
