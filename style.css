@@ -267,3 +267,7 @@ footer ul {
   font-size: 1.6rem;
   text-align: center;
 }
+
+.wrapper {
+    background-color: rgba(69, 105, 144, .3);
+}
