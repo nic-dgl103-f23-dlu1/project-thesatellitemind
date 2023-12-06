@@ -222,3 +222,48 @@ footer ul {
     padding: 10px;
     text-decoration: none;
 }
+
+/*About Page*/
+.about {
+    width: 100%;
+}
+
+.about img {
+    padding: 20px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about h2 {
+    font-family: Calistoga, serif;
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 20px 10px;
+    color: #456990;
+}
+
+.about p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    padding: 10px 20px;
+}
+
+.button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.button a {
+  background-color: #456990;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-align: center;
+}
