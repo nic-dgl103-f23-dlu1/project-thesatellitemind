@@ -243,6 +243,14 @@ footer ul {
     color: #456990;
 }
 
+.about h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
 .about p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
