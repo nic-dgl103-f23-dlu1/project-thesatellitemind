@@ -163,7 +163,7 @@ nav .toggle {
     height: 200px;
     margin: 20px;
     padding: 20px;
-    background-image: url(images/camping.jpg);
+    background-image: url(images/camping.jpg); /*This photo came from the Comox Valley Record*/
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
