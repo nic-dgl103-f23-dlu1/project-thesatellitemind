@@ -266,8 +266,28 @@ footer ul {
   display: inline-block;
   font-size: 1.6rem;
   text-align: center;
+  border-radius: 4px;
 }
 
 .wrapper {
     background-color: rgba(69, 105, 144, .3);
+    padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+   .about img {
+    float: left;
+   }
+
+   .wrapper {
+    clear: left;
+   }
+
+   .wrapper img {
+    float: right;
+   }
+
+   footer {
+    clear: left;
+   }
 }
