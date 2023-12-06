@@ -12,19 +12,23 @@ html {
     font-family: arial, sans-serif;
     font-size: 1.2rem;
     text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 /*Nav*/
 
 .logo {
+    padding: 50px 10px;
     float: left;
 }
-.nav {
-    background: #456990;
+nav {
     width: auto;
     margin: 0;
     display: flex;
     flex-direction: column;
+    padding: 60px 10px;
 }
 
 nav ul {
@@ -36,6 +40,10 @@ nav ul {
 }
 
 @media only screen and (min-width: 768px) {
+    nav {
+        background: #456990;
+    }
+    
     nav ul {
         display: flex;
         flex-direction: row;
@@ -50,8 +58,12 @@ nav ul li a {
     color: white;
     font-size: 1.6rem;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 15px;
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: navy;
 }
 
 .show-items {
@@ -62,7 +74,7 @@ nav .toggle {
     align-self: flex-end;
     position: absolute;
     cursor: pointer;
-    background: #456990;
+    width: 100px;
 }
 
 /*Hero*/
@@ -82,10 +94,10 @@ nav .toggle {
 }
 
 .background-overlay {
-    background-color: black;
-    opacity: 0.6;
     width: 100%;
     position: absolute;
+    background-color: rgba(69, 105, 144, .5);
+    opacity: 0.7;
 }
 
 .hero h1 {
